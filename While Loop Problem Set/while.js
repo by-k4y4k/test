@@ -21,8 +21,8 @@ while (number < 40) {
 console.log("3. PRINT ALL ODD NUMBERS BETWEEN 300 AND 333");
 number = 300;
 
-// If this while condition is set to 333, the last result - 333 - is not returned,
-// as number is no longer within this while's bounds.
+// If this while condition is set to 333, the last result - 333 - is not
+// returned, as number is no longer within this while's bounds.
 while (number < 334) {
   if (number % 2 === 1) {
     console.log(number);
