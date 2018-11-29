@@ -1,4 +1,4 @@
-// SECTION WHATEVER LECTURE SOMETHING
+// SECTION 13 LECTURE 164
 // OPTIONAL EXCERCISE - BUILDING OUR OWN FOREACH
 
 let aw = [1, 2, 3, 4];
@@ -21,7 +21,6 @@ Array.prototype.myForEach = function(func) {
     func(this[i]);
   }
 };
-
 
 // Using myForEach w/ an anonymous function
 friends.myForEach(function(name) {
