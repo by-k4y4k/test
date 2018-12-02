@@ -32,10 +32,10 @@ function movieSummary(arr) {
 
 function buildResult(movie) {
   let result = "You have";
-  if (movie.hasWatched == false) {
-    result += " not watched ";
-  } else {
+  if (movie.hasWatched) {
     result += " watched ";
+  } else {
+    result += " not watched ";
   }
   result += '"' + movie.title + '"';
   result += " - " + movie.rating + " stars.";
