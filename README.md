@@ -43,3 +43,4 @@ Udemy.
 | 40          | Deploying                            | no                  |
 | 40          | Deploying                            | no                  |
 | 41          | JavaScript - The Tricky Stuff        | no                  |
+

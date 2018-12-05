@@ -20,11 +20,7 @@
 #!! ERROR: mac is undefined. Use list command to see defined gitignore types !!#
 
 ### VisualStudioCode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode/ 
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
@@ -56,6 +52,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/linux,windows,mac,visualstudiocode
-.vscode/settings.json
 *.css.map
 release/
