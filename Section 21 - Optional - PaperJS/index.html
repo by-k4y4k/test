@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>PaperJS Excercise</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="../css/main.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-full.min.js"
+    ></script>
+  </head>
+  <body>
+    <script type="text/paperscript" canvas="canvas" src="j.js">
+      for (var x = 0; x < 1000; x += 100) {
+        for (var y = 0; y < 1000; y += 100) {
+          new Path.Circle(new Point(x, y), 10).fillColor = "purple";
+        }
+      }
+    </script>
+    <canvas id="canvas" resize></canvas>
+  </body>
+</html>
