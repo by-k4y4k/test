@@ -1,9 +1,8 @@
 {
-  "devDependencies": {},
   "dependencies": {
     "express": "^4.16.4"
   },
-  "name": "babysFirstExpressApp",
+  "name": "expressBasicsExcercise",
   "version": "1.0.0",
   "main": "app.js",
   "license": "MIT"
