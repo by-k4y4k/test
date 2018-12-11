@@ -17,6 +17,17 @@ app.get("/fallinlovewith/:thing", function(req, res) {
   res.render("love.ejs", { thingVar: thing });
 });
 
+app.get("/posts", function(req, res) {
+  // some dummy posts
+  let posts = [
+    { title: "post 1", author: "susy" },
+    { title: "post 2", author: "susy 2000" },
+    { title: "post 3", author: "susy, but better" }
+  ];
+
+  res.render("posts.ejs", { posts: posts });
+});
+
 // port 1234 because I'm a madman and I like to switch things up sometimes
 app.listen(1234, function() {
   console.log("listening on http://localhost:1234");

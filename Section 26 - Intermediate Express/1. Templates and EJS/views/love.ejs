@@ -1,3 +1,7 @@
 <h1>you fell in love with: <%= thingVar %> </h1>
 
-<%# thingVar is passed into the template (this ejs) through Express -%>
+<% if (thingVar.toLowerCase() === "kayak") { %>
+  <p>you know it bby</p>
+<% } else { %>
+<p>...and kayak, right?</p>
+<% } %>
