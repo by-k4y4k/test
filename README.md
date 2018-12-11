@@ -23,11 +23,11 @@ Udemy.
 | 18-19       | jQuery                               | yes                                                    |
 | 20          | Project: ToDo List                   | [yes](https://github.com/by-k4y4k/Simple-jQuery-ToDo)  |
 | 21          | Project: Patatap Clone               | [yes](https://github.com/by-k4y4k/Patatap-Clone-Sorta) |
-| 22          | Backend Basics                       | yes*                                                    |
+| 22          | Backend Basics                       | yes*                                                   |
 | 23          | The Command Line                     | skipped, proficient                                    |
-| 24          | nodeJS                               | yes                                                     |
-| 25          | Server-side Frameworks               | in progress                                                     |
-| 26          | Intermediate Express                 | no                                                     |
+| 24          | nodeJS                               | yes                                                    |
+| 25          | Server-side Frameworks               | yes                                                    |
+| 26          | Intermediate Express                 | in progress                                            |
 | 27          | Working with APIs                    | no                                                     |
 | 28          | Project: YelpCamp - Basics           | no                                                     |
 | 29          | Databases                            | no                                                     |
