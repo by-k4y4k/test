@@ -1,3 +1,5 @@
+<% include partials/header %>
+
 <h1>you fell in love with: <%= thingVar %> </h1>
 
 <% if (thingVar.toLowerCase() === "kayak") { %>
@@ -5,3 +7,5 @@
 <% } else { %>
 <p>...and kayak, right?</p>
 <% } %>
+
+<%include partials/footer %>

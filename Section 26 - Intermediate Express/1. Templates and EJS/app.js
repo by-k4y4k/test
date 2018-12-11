@@ -5,16 +5,20 @@
 let express = require("express");
 let app = express();
 
+// serve stylesheets and whatever from the public folder
+app.use(express.static("public"));
+app.set("view engine", "ejs");
+
 // rendering a static template with no dynamism,
 app.get("/", function(req, res) {
   //express automatically looks for .ejs files in the views/ dir
-  res.render("home.ejs");
+  res.render("home");
 });
 
 app.get("/fallinlovewith/:thing", function(req, res) {
   let thing = req.params.thing;
   // thingVar INSIDE love.ejs is equal to thing OUTSIDE love.ejs
-  res.render("love.ejs", { thingVar: thing });
+  res.render("love", { thingVar: thing });
 });
 
 app.get("/posts", function(req, res) {
@@ -25,7 +29,7 @@ app.get("/posts", function(req, res) {
     { title: "post 3", author: "susy, but better" }
   ];
 
-  res.render("posts.ejs", { posts: posts });
+  res.render("posts", { posts: posts });
 });
 
 // port 1234 because I'm a madman and I like to switch things up sometimes
