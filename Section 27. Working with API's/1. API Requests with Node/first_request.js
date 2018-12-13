@@ -1,3 +1,6 @@
+// SECTION 27 LECTURE 275
+// MAKING API REQUESTS WITH NODE
+
 // request: an npm package that allows for requests (wow)
 var request = require("request");
 

@@ -28,8 +28,8 @@ Udemy.
 | 24          | nodeJS                               | yes                                                    |
 | 25          | Server-side Frameworks               | yes                                                    |
 | 26          | Intermediate Express                 | yes                                                    |
-| 27          | Working with APIs                    | in progress                                            |
-| 28          | Project: YelpCamp - Basics           | no                                                     |
+| 27          | Working with APIs                    | yes                                                    |
+| 28          | Project: YelpCamp - Basics           | in progress                                            |
 | 29          | Databases                            | no                                                     |
 | 30          | Project: YelpCamp - Data Persistence | no                                                     |
 | 31          | RESTful Routing                      | no                                                     |
