@@ -30,8 +30,8 @@ Udemy.
 | 26          | Intermediate Express                 | yes                                                    |
 | 27          | Working with APIs                    | yes                                                    |
 | 28          | Project: YelpCamp - Basics           | yes                                                    |
-| 29          | Databases                            | in progress                                            |
-| 30          | Project: YelpCamp - Data Persistence | no                                                     |
+| 29          | Databases                            | yes                                                    |
+| 30          | Project: YelpCamp - Data Persistence | in progress                                            |
 | 31          | RESTful Routing                      | no                                                     |
 | 32          | Data Associations                    | no                                                     |
 | 33          | Project: YelpCamp - Comments         | no                                                     |
