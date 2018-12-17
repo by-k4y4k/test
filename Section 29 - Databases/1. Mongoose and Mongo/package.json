@@ -1,0 +1,12 @@
+{
+  "name": "mongoose-and-mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-google": "^0.11.0"
+  }
+}
