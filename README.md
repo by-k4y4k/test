@@ -32,15 +32,14 @@ Udemy.
 | 28          | Project: YelpCamp - Basics           | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 29          | Databases                            | yes                                                    |
 | 30          | Project: YelpCamp - Data Persistence | [yes](https://github.com/by-k4y4k/YelpCamp)            |
-| 31          | RESTful Routing                      | in progress                                            |
-| 32          | Data Associations                    | no                                                     |
+| 31          | RESTful Routing                      | [yes](https://github.com/by-k4y4k/RESTful-Blog)        |
+| 32          | Data Associations                    | in progress                                            |
 | 33          | Project: YelpCamp - Comments         | no                                                     |
 | 34          | Authentication                       | no                                                     |
 | 35          | Project: YelpCamp - Authentication   | no                                                     |
 | 36          | Project: YelpCamp - Cleaning Up      | no                                                     |
 | 38          | Project: YelpCamp - UI Improvements  | no                                                     |
 | 39          | Git and GitHub                       | already proficient                                     |
-| 40          | Deploying                            | no                                                     |
 | 40          | Deploying                            | no                                                     |
 | 41          | JavaScript - The Tricky Stuff        | no                                                     |
 
