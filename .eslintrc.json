@@ -1,29 +1,18 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "node": true
-    },
-    "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 5
-    },
-    "rules": {
-        "indent": [
-            "error",
-            2
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
-        "quotes": [
-            "error",
-            "double"
-        ],
-        "semi": [
-            "error",
-            "always"
-        ]
-    }
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true
+  },
+  "parserOptions": {"ecmaVersion": 2015},
+  "extends": ["google"],
+  "rules": {
+    "capitalized-comments": ["error", "always"],
+    "line-comment-position": ["error", "above"],
+    "multiline-comment-style": ["error", "starred-block"],
+    "no-inline-comments": "error",
+    "indent": ["error", 2],
+    "no-warning-comments": "error"
+  },
+  "plugins": ["babel"]
 }
