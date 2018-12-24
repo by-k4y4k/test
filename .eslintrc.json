@@ -6,6 +6,7 @@
   },
   "parserOptions": {"ecmaVersion": 2015},
   "extends": ["google"],
+  "parser": "babel-eslint",
   "rules": {
     "capitalized-comments": ["error", "always"],
     "line-comment-position": ["error", "above"],
@@ -13,6 +14,5 @@
     "no-inline-comments": "error",
     "indent": ["error", 2],
     "no-warning-comments": "error"
-  },
-  "plugins": ["babel"]
+  }
 }
