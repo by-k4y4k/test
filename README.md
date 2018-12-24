@@ -33,8 +33,8 @@ Udemy.
 | 29          | Databases                            | yes                                                    |
 | 30          | Project: YelpCamp - Data Persistence | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 31          | RESTful Routing                      | [yes](https://github.com/by-k4y4k/RESTful-Blog)        |
-| 32          | Data Associations                    | in progress                                            |
-| 33          | Project: YelpCamp - Comments         | no                                                     |
+| 32          | Data Associations                    | yes                                                    |
+| 33          | Project: YelpCamp - Comments         | in progress                                            |
 | 34          | Authentication                       | no                                                     |
 | 35          | Project: YelpCamp - Authentication   | no                                                     |
 | 36          | Project: YelpCamp - Cleaning Up      | no                                                     |
