@@ -1,48 +1,21 @@
 /*
- * SECTION 32 LECTURE 315
- * DATA ASSOCIATIONS - OBJECT REFERENCES
+ * SECTION 32 LECTURE 316
+ * DATA ASSOCIATIONS - MODULE.EXPORTS
  */
 
 // eslint:
 /* eslint-disable capitalized-comments */
 
 const mongoose = require('mongoose');
-
 // Connect to the mongo database
 mongoose.connect(
   'mongodb://localhost/blog_demo_2',
   {useNewUrlParser: true}
 );
 
-/*
- * Anatomy of a post: it should contain a title and some content, both of which
- * are strings
- */
-const postSchema = new mongoose.Schema({
-  title: String,
-  content: String,
-});
-
-// Create the Post model
-const Post = mongoose.model('Post', postSchema);
-
-/*
- * A user should have one name and one email, but can be associated with many
- * posts
- */
-const userSchema = new mongoose.Schema({
-  email: String,
-  name: String,
-  posts: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Post',
-    },
-  ],
-});
-
-// Create the User model
-const User = mongoose.model('User', userSchema);
+// cleaning / modularising code
+const Post = require('./models/post');
+const User = require('./models/user');
 
 User.create({
   email: 'user@example.com',
@@ -72,7 +45,7 @@ Post.create(
   }
 );
 
-// exec is the go button
+// exec is pretty much the  go button
 User.findOne({name: 'Usr'})
   .populate('posts')
   .exec(function(err, user) {
