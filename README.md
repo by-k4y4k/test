@@ -36,8 +36,9 @@ Udemy.
 | 32          | Data Associations             | yes                                                    |
 | 33          | YelpCamp - Comments           | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 34          | Authentication                | yes                                                    |
-| 35          | YelpCamp - Authentication     | in progress                                            |
-| 36          | YelpCamp - Cleaning Up        | no                                                     |
+| 35          | YelpCamp - Authentication     | [yes](https://github.com/by-k4y4k/YelpCamp)            |
+| 36          | YelpCamp - Cleaning Up        | [yes](https://github.com/by-k4y4k/YelpCamp)            |
+| 37          | YelpCamp - Update and Destroy | in progress                                            |
 | 38          | YelpCamp - UI Improvements    | no                                                     |
 | 39          | Git and GitHub                | already proficient                                     |
 | 40          | Deploying                     | no                                                     |
