@@ -38,10 +38,10 @@ Udemy.
 | 34          | Authentication                | yes                                                    |
 | 35          | YelpCamp - Authentication     | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 36          | YelpCamp - Cleaning Up        | [yes](https://github.com/by-k4y4k/YelpCamp)            |
-| 37          | YelpCamp - Update and Destroy | in progress                                            |
-| 38          | YelpCamp - UI Improvements    | no                                                     |
+| 37          | YelpCamp - Update and Destroy | [yes](https://github.com/by-k4y4k/YelpCamp)            |
+| 38          | YelpCamp - UI Improvements    | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 39          | Git and GitHub                | already proficient                                     |
-| 40          | Deploying                     | no                                                     |
+| 40          | Deploying                     | in progress                                            |
 | 41          | JavaScript - The Tricky Stuff | no                                                     |
 
 \* A partially or completely theory-based unit with no projects or excercises
