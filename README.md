@@ -41,7 +41,7 @@ Udemy.
 | 37          | YelpCamp - Update and Destroy | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 38          | YelpCamp - UI Improvements    | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 39          | Git and GitHub                | already proficient                                     |
-| 40          | Deploying                     | in progress                                            |
-| 41          | JavaScript - The Tricky Stuff | no                                                     |
+| 40          | Deploying                     | yes                                                    |
+| 41          | JavaScript - The Tricky Stuff | in progress                                            |
 
 \* A partially or completely theory-based unit with no projects or excercises
