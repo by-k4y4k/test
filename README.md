@@ -15,7 +15,7 @@ Udemy.
 | 1-2         | Course Intro                  | yes                                                    |
 | 3-4         | HTML                          | already proficient                                     |
 | 5-6         | CSS                           | already proficient                                     |
-| 7           | Bootstrap                     | no                                                     |
+| 7           | Bootstrap                     | in progress                                            |
 | 8-9         | Bootstrap 4                   | no                                                     |
 | 10-14       | JavaScript                    | yes                                                    |
 | 15-16       | DOM Manipulation              | yes                                                    |
@@ -42,6 +42,6 @@ Udemy.
 | 38          | YelpCamp - UI Improvements    | [yes](https://github.com/by-k4y4k/YelpCamp)            |
 | 39          | Git and GitHub                | already proficient                                     |
 | 40          | Deploying                     | yes                                                    |
-| 41          | JavaScript - The Tricky Stuff | in progress                                            |
+| 41          | JavaScript - The Tricky Stuff | yes                                                    |
 
 \* A partially or completely theory-based unit with no projects or excercises
