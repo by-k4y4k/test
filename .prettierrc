@@ -2,7 +2,7 @@
   "arrowParens": "always",
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": false,
-  "jsxBracketSameLine": false,
+  "jsxBracketSameLine": true,
   "jsxSingleQuote": true,
   "printWidth": 80,
   "requirePragma": false,
